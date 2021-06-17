@@ -1,0 +1,101 @@
+.line {
+    height: 10px;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.menu {
+    font-family: 'Teko', sans-serif;
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: right;
+    color: darkcyan;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: cyan;
+}
+
+#contactus {
+    background-color: aquamarine;
+}
+
+.myNavbar {
+    position: sticky;
+    top: 0;
+    z-index: 100%;
+}
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: white;
+    background: linear-gradient(#45967d 0%, #b34e49 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.83;
+    z-index: 8;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.travel_mainDiv {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid white;
+}
+.travel_mainDiv img {
+    width: 100%;
+    height: 300px;
+}
+.travel_mainDiv hr {
+    width: 100%;
+}
+.travel_mainDiv h5 , .travel_mainDiv p{
+    margin-left: 20px;
+}
+.environment_li {
+    margin-top: 13px;
+}
+.environment_li h4 {
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+.environment_li img {
+    border-radius: 25px;
+    height: 250px;
+}
+.environment_li p {
+    margin-top: 10px;
+}
+#footer {
+    height: 20px;
+    background-color: white;
+}
